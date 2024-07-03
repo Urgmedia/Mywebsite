@@ -1,0 +1,1521 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+  <title>URG Media Advertising</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="author" content="bslthemes" />
+
+  <!-- Fonts -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Epilogue%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&#038;display=swap" type="text/css" media="all" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+  <!-- CSS STYLES -->
+  <link rel="stylesheet" href="assets/css/vendors/bootstrap.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/splitting.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/swiper.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/animate.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/vendors/jquery.pagepiling.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+  <style>
+  .lightbox-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.lightbox-prev, .lightbox-next {
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-prev:hover, .lightbox-next:hover {
+  color: #ccc;
+}
+
+.image {
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid white;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.onovo-section {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  padding: 60px 0;
+}
+
+.onovo-filter-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.onovo-filter ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.onovo-filter-item {
+  background: #343a40;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+
+.onovo-portfolio-col {
+  margin-bottom: 30px;
+}
+
+
+
+.onovo-portfolio-item .image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 535px; /* Set a fixed height for the images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #343a40; /* Add a solid border */
+  box-sizing: border-box;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+.onovo-portfolio-item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.onovo-portfolio-item:hover .image img {
+  transform: scale(1.5); /* Example: Scale up image on hover */
+  z-index: 1; /* Ensure the zoomed image stays above other content */
+
+}
+
+.onovo-portfolio-item .title a {
+  color: #343a40;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.onovo-portfolio-item .title a:hover {
+  color: #007bff;
+}
+
+.onovo-portfolio-item {
+  margin-bottom: 0px; /* Adjust as needed for spacing between items */
+}
+
+.image {
+  position: relative;
+  #overflow: hidden;
+}
+
+.portfolio-img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+
+
+.video-link:hover .play-button::before {
+    border-left: 30px solid rgba(255, 255, 255, 0.7); /* Change color on hover if desired */
+}
+</style>
+</head>
+
+<body>
+
+  <!-- Page -->
+  <div class="onovo-page footer--fixed">
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader__spinner">
+        <span class="preloader__double-bounce"></span>
+        <span class="preloader__double-bounce preloader__double-bounce--delay"></span>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="onovo-header header--white">
+      <div class="header--builder">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center">
+
+              <!-- Logo -->
+              <div class="onovo-logo-image" style="max-width: 70px">
+                <a href="index.html">
+                  <img src="assets/Images/urg-logo.png" />
+                  <img class="logo--white" src="assets/Images/urg-logo.png" alt="Onovo" />
+                </a>
+              </div>
+
+            </div>
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-6 align-self-center align-center">
+
+              <!-- Menu Hamburger -->
+              <a href="#" class="onovo-menu-btn"><span></span></a>
+              <div class="onovo-menu-popup align-left">
+                <div class="onovo-menu-overlay"></div>
+                <div class="onovo-menu-overlay-after"></div>
+                <div class="onovo-menu-container onovo--noscroll">
+                  <div class="container">
+                    <div class="onovo-menu">
+                      <ul class="onovo-menu-nav">
+                       <li>
+                          <a class="onovo-lnk lnk--active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                          <a class="onovo-lnk lnk--active" href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                          <a class="onovo-lnk lnk--active" href="projects.html">Project</a>
+                        </li>
+                        <li>
+                          <a class="onovo-lnk lnk--active" href="blog.html">Blog</a>
+                        </li>
+
+                        <li>
+                          <a class="onovo-lnk lnk--active" href="contact-us.html">Contact Us</a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center align-right">
+
+              <!-- Button -->
+              <a class="onovo-head-btn onovo-hover-btn" href="projects.html">
+                <span>
+                  <span class="onovo-lnk lnk--active">Showcase</span>
+                </span>
+                <i class="arrow">
+                  <span></span>
+                </i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+      <!-- Onovo Intro -->
+      <section class="onovo-section onovo-intro intro--black">
+        <div class="container">
+          <h1 class="onovo-title-1  onovo-text-white">
+            <span> Our Projects </span>
+            <span class="onovo-sep word">
+              <i class="sep-img" style="background-image: url(assets/images/title_icon.svg);"></i>
+            </span>
+          </h1>
+          <div class="onovo-subtitle-2  onovo-text-white">
+            <span> Creative studio at the intersection of art, designed technology. </span>
+          </div>
+          <div class="onovo-breadcrums">
+            <ul>
+              <li>
+                <a href="index.html">Home </a>
+              </li>
+              <li class="current">
+                <span>Projects </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Onovo Projects -->
+      <section class="onovo-section gap-top-140">
+        <div class="container">
+
+          <!-- Projects Grid -->
+          <div class="onovo-portfolio">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <!-- Filter projects-->
+                <div class="onovo-filter-container">
+                  <div class="onovo-filter js-onovo-filter filter--default">
+                    <div class="onovo-filter-nav-active"></div>
+                    <ul>
+                      <li>
+                        <button class="onovo-filter-item item--active" type="button" data-filter="*">
+                          <span>All Projects</span>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="onovo-filter-item" type="button" data-filter=".marketing">
+                          <span>Branding</span>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="onovo-filter-item" type="button" data-filter=".interactive">
+                          <span>Design</span>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="onovo-filter-item" type="button" data-filter=".design">
+                          <span>Digital</span>
+                        </button>
+                      </li>
+                      <li>
+                        <button class="onovo-filter-item" type="button" data-filter=".branding">
+                          <span>Packaging</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <!-- Projects items -->
+                <div class="row onovo-portfolio-items">
+
+                  <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/1.jpg" data-lightbox="gallery" data-title="Image 1">
+                          <img src="assets/images/potfilio/Branding/1.jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/58.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/58.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_iPad_Mockup_2 copy.jpg" data-lightbox="gallery" data-title="Image 6" >
+                          <img src="assets/images/Free_iPad_Mockup_2 copy.jpg"alt="Circle Cardboard Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/VC Classes.mp4"  data-caption="VC">
+                          <img src="assets/images/VC.png" alt="Video Thumbnail" style="width: 100%; height: auto;">
+                          <div class="play-button"></div>
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                      <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_Two_Round_Corners_BC_Mockup_6 copy.jpg" data-lightbox="gallery" data-title="Image 26">
+                          <img src="assets/images/Free_Two_Round_Corners_BC_Mockup_6 copy.jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/2.jpg" data-lightbox="gallery" data-title="Image 2">
+                          <img src="assets/images/potfilio/Branding/2.jpg" alt="Flower Store Mobile App" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/51.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/51.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col branding">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/BOX.mp4"  data-caption="BOX">
+                          <img src="assets/images/box.png" alt="Video Thumbnail" width="4000" height="450">
+                          <div class="play-button"></div>
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/3.jpg" data-lightbox="gallery" data-title="Image 3">
+                          <img src="assets/images/potfilio/Branding/3.jpg" alt="Business Card Logo" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/4.jpg" data-lightbox="gallery" data-title="Image 4" >
+                          <img src="assets/images/potfilio/Branding/4.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery"href="assets/images/potfilio/Branding/5.jpg" data-lightbox="gallery" data-title="Image 5" >
+                          <img src="assets/images/potfilio/Branding/5.jpg" alt="Headphones 3D Rendering" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/26.jpg" data-lightbox="gallery" data-title="Image 6" >
+                          <img src="assets/images/potfilio/Branding/26.jpg"alt="Circle Cardboard Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/47.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/47.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Foodikraft.mp4"  data-caption="Foodikraft Menu">
+                          <img src="assets/images/potfilio/Branding/Free_Five_Folded_DL_Flyer_Mockup_3 copy.jpg" alt="Video Thumbnail" style="width: 100%; height: auto;">
+                          <div class="play-button"></div>
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col branding">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/7.jpg"  data-title="Image 9">
+                          <img src="assets/images/potfilio/Branding/7.jpg" alt="Headphones 3D Rendering" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col branding">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/8.jpg" data-lightbox="gallery" data-title="Image 10">
+                          <img src="assets/images/potfilio/Branding/8.jpg" alt="Headphones 3D Rendering" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/39.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/39.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col branding">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/12.jpg" data-lightbox="gallery" data-title="Image 11">
+                          <img src="assets/images/potfilio/Branding/12.jpg" alt="Headphones 3D Rendering" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Comp1.mp4"  data-caption="">
+                          <img src="assets/images/champ.png" alt="Video Thumbnail" style="width: 100%; height: auto;">
+                          <div class="play-button"></div>
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+
+
+
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/Free_A4_Paper_Mockup_3 copy.jpg"" data-lightbox="gallery" data-title="Image 13">
+                          <img src="assets/images/potfilio/Branding/Free_A4_Paper_Mockup_3 copy.jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/27.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/27.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/MacBook_Dresser_Mockup_2 copy.jpg" data-lightbox="gallery" data-title="Image 15">
+                          <img src="assets/images/potfilio/Branding/MacBook_Dresser_Mockup_2 copy.jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/9.jpg" data-lightbox="gallery" data-title="Image 16">
+                          <img src="assets/images/potfilio/Branding/9.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/10.jpg" data-lightbox="gallery" data-title="Image 17">
+                          <img src="assets/images/potfilio/Branding/10.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_Two_Round_Corners_BC_Mockup_2 copy.jpg" data-lightbox="gallery" data-title="Image 26">
+                          <img src="assets/images/Free_Two_Round_Corners_BC_Mockup_2 copy.jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_Roll_Up_Mockup_1 copy(1).jpg" data-lightbox="gallery" data-title="Image 26">
+                          <img src="assets/images/Free_Roll_Up_Mockup_1 copy(1).jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+   
+                  
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/11.jpg"" data-lightbox="gallery" data-title="Image 18">
+                          <img src="assets/images/potfilio/Branding/11.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_iPhone_11_Pro_Mockup_3 copy.jpg" data-lightbox="gallery" data-title="Image 6" >
+                          <img src="assets/images/Free_iPhone_11_Pro_Mockup_3 copy.jpg" width="4000" height="450" alt="Circle Cardboard Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                     
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/13.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/potfilio/Branding/13.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_Two_Round_Corners_BC_Mockup_1 copy (1).jpg" data-lightbox="gallery" data-title="Image 26">
+                          <img src="assets/images/Free_Two_Round_Corners_BC_Mockup_1 copy (1).jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+
+
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col branding">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/28.jpg" data-lightbox="gallery" data-title="Image 21">
+                          <img src="assets/images/potfilio/Branding/28.jpg" alt="Headphones 3D Rendering" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/24.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/24.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col branding">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/56.jpg" data-lightbox="gallery" data-title="Image 22" >
+                          <img src="assets/images/potfilio/Branding/56.jpg" alt="Headphones 3D Rendering" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                     <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_Roll_Up_Mockup_2 copy.jpg" data-lightbox="gallery" data-title="Image 23" >
+                          <img src="assets/images/Free_Roll_Up_Mockup_2 copy.jpg" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/17.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/17.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Zephyr.mp4"  data-caption="Zephyr">
+                          <img src="assets/images/Zephyr.png" alt="Video Thumbnail" style="width: 100%; height: auto;">
+                          <div class="play-button"></div>
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                     <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/Single_US_Letter_Flyer_Mockup_2 copy.jpg"" data-lightbox="gallery" data-title="Image 24" >
+                          <img src="assets/images/potfilio/Branding/Single_US_Letter_Flyer_Mockup_2 copy.jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col interactive ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/46.jpg" data-lightbox="gallery" data-title="Image 19">
+                          <img src="assets/images/46.jpg" alt="Market Economy Graphics" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                     <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/potfilio/Branding/Single_US_Letter_Flyer_Mockup_3 copy.jpg" data-lightbox="gallery" data-title="Image 25" >
+                          <img src="assets/images/potfilio/Branding/Single_US_Letter_Flyer_Mockup_3 copy.jpg" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/Free_iPhone_11_Pro_Mockup_3 copy.jpg" data-lightbox="gallery" data-title="Image 6" >
+                          <img src="assets/images/Free_iPad_Mockup_3 copy.jpg"alt="Circle Cardboard Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span> <em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                     <!--project item-->
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col marketing ">
+                    <div class="onovo-portfolio-item">
+                      <div class="image" data-onovo-overlay data-onovo-scroll>
+                        <a data-fancybox="gallery" href="assets/images/book-mockup-featuring-a-cup-of-coffee-m3813r-el2 (1).png" data-lightbox="gallery" data-title="Image 26">
+                          <img src="assets/images/book-mockup-featuring-a-cup-of-coffee-m3813r-el2 (1).png" alt="Museums Art Concept" />
+                        </a>
+                      </div>
+                      <div class="desc">
+                        <h5 class="title">
+                          <a class="onovo-lnk" href="project-detail.html">
+                            <span data-splitting data-onovo-scroll></span>
+                          </a>
+                        </h5>
+                        <div class="text">
+                          <div data-splitting data-onovo-scroll>
+                            <span><em>,</em>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="onovo-footer footer--dark">
+      <div class="footer--default">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+
+              <!-- Description -->
+              <div class="onovo-text onovo-text-white">
+                <h5>Information</h5>
+                <p style="opacity: 0.6;">From the moment our company was founded, we have helped our clients find exceptional solutions <strong>for their businesses</strong>. </p>
+              </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
+
+              <!-- Description -->
+              <div class="onovo-text onovo-text-white">
+                <h5>Get in Touch</h5>
+                <p style="opacity: 0.6;">Shop 7, Laxmi apartment<br />Lokmanya Nager, Thane (W)-400606 </p>
+                <p style="opacity: 0.6;">
+                  <a href="tel:+10204302973" class="onovo-lnk lnk--white" target="_blank">+ 91 9869118118 </a><br>
+                  <a href="mailto:username@domain.com" class="onovo-lnk lnk--white" target="_blank">urgadvertising@gmail.com</a>
+                </p>
+              </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+
+              <!-- Gallery items -->
+              <div class="row">
+
+                <!--gallery item-->
+                <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <figure class="gallery-item">
+                    <a href='assets/images/post5.jpg'>
+                      <img src="assets/images/post5-1024x683.jpg" alt="" />
+                    </a>
+                  </figure>
+                </div>
+
+                <!--gallery item-->
+                <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <figure class="gallery-item">
+                    <a href='assets/images/post4.jpg'>
+                      <img src="assets/images/post4-1024x683.jpg" alt="" />
+                    </a>
+                  </figure>
+                </div>
+
+                <!--gallery item-->
+                <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <figure class="gallery-item">
+                    <a href='assets/images/post3.jpg'>
+                      <img src="assets/images/post3-1024x683.jpg" alt="" />
+                    </a>
+                  </figure>
+                </div>
+
+                <!--gallery item-->
+                <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <figure class="gallery-item">
+                    <a href='assets/images/post4.jpg'>
+                      <img src="assets/images/post4-1024x683.jpg" alt="" />
+                    </a>
+                  </figure>
+                </div>
+
+                <!--gallery item-->
+                <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <figure class="gallery-item">
+                    <a href='assets/images/post1.jpg'>
+                      <img src="assets/images/post1-1024x683.jpg" alt="" />
+                    </a>
+                  </figure>
+                </div>
+
+                <!--gallery item-->
+                <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <figure class="gallery-item">
+                    <a href='assets/images/post6.jpg'>
+                      <img src="assets/images/post6-1024x683.jpg" alt="" />
+                    </a>
+                  </figure>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="separator"></div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+
+              <!-- Copyright -->
+              <div class="copyright onovo-text-white">
+                © 2024 URG Media Advertising <a href="https://bslthemes.com" target="blank" class="onovo-lnk lnk--white"></a>. All rights reserved.
+              </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-right">
+
+              <!-- Social-->
+              <div class="onovo-social-1 onovo-social-active">
+                <ul>
+                  <li>
+                    <a class="onovo-social-link onovo-hover-2" href="http://twitter.com" title="Twitter" target="_blank">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="onovo-social-link onovo-hover-2" href="http://linkedin.com" title="LinkedIn" target="_blank">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="onovo-social-link onovo-hover-2" href="http://dribbble.com" title="Dribbble" target="_blank">
+                      <i class="fab fa-behance"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/swiper.js"></script>
+  <script src="assets/js/splitting.js"></script>
+  <script src="assets/js/scroll-out.js"></script>
+  <script src="assets/js/jquery.pagepiling.js"></script>
+  <script src="assets/js/jquery.easy_number_animate.js"></script>
+  <script src="assets/js/magnific-popup.js"></script>
+  <script src="assets/js/imagesloaded.pkgd.js"></script>
+  <script src="assets/js/isotope.pkgd.js"></script>
+  <script src="assets/js/common.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.css" />
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
+
+<script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        // Options for FancyBox
+        autoFocus: false, // Disable auto-focusing on elements
+        trapFocus: false, // Disable focus trapping within the lightbox
+        infobar: false, // Hide the infobar (info and navigation)
+        touch: false, // Disable touch gestures (for better video playback control)
+        buttons: ["close"], // Show only the close button
+        video: {
+            autoStart: false, // Do not autoplay videos
+        },
+    });
+</script>
+</body>
+</html>
